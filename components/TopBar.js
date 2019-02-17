@@ -16,7 +16,7 @@ const backgroundColor = 'transparent'
 
 const styles = StyleSheet.create({
   container: {
-    height: 35,
+    // height: 35,
     justifyContent: 'center'
   },
   row: {
@@ -49,7 +49,7 @@ const TopBar = (props) => {
   return (
     <LinearGradient colors={['rgba(0,0,0,0.75)', 'rgba(0,0,0,0)']} style={styles.container}>
       <View style={styles.row}>
-        { logo && <Image style={styles.logo} resizeMode="contain" {...checkSource(logo)} />}
+        { logo }
         <Text
           style={[styles.title, { color: theme.title }]}
           numberOfLines={1}
