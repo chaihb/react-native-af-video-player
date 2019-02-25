@@ -45,7 +45,7 @@ const ControlBar = (props) => {
         size={20}
       />
       <Time time={duration} theme={theme.duration} />
-      { !inlineOnly &&
+      { !inlineOnly && false &&
       <ToggleIcon
         paddingRight
         onPress={() => props.toggleFS()}
