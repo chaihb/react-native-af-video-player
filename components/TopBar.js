@@ -9,7 +9,7 @@ import {
 } from 'react-native'
 
 import LinearGradient from 'react-native-linear-gradient'
-import ToggleIcon from './ToggleIcon';
+import {ToggleIcon} from './ToggleIcon';
 import { checkSource } from './utils'
 
 const backgroundColor = 'transparent'
